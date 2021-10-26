@@ -23,3 +23,4 @@ the Arduino IDE but I wanted to get some familiarity back with the Arduino IDE e
 though it is regarded by many as subpar. 
 
 *You can download Visual Studio Code here:* [VSCode Download Link](https://code.visualstudio.com/download)
+*Need to download Arduino IDE? You can do so here:* [Arduino IDE Download Link](https://www.arduino.cc/en/software)

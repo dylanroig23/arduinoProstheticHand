@@ -22,5 +22,5 @@ from GitHub Desktop. There are extensions that you can add into VS Code to emina
 the Arduino IDE but I wanted to get some familiarity back with the Arduino IDE even 
 though it is regarded by many as subpar. 
 
-*You can download Visual Studio Code here:* [VSCode Download Link](https://code.visualstudio.com/download)
+*You can download Visual Studio Code here:* [VSCode Download Link](https://code.visualstudio.com/download)  
 *Need to download Arduino IDE? You can do so here:* [Arduino IDE Download Link](https://www.arduino.cc/en/software)

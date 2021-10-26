@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://www.vernier.com/wp-content/uploads/2020/05/Arduino-Loop-logo.png">
+  <img src="https://www.vernier.com/wp-content/uploads/2020/05/Arduino-Loop-logo.png" width = "350" height = "500">
 </p>
 
 # Arduino "Prosthetic" Hand Project

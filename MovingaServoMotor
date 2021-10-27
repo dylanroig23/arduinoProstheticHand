@@ -1,0 +1,42 @@
+//the servo library
+#include <Servo.h>
+
+//creates the servo object of type Servo 
+Servo servoMotor;  
+
+//the servoDegree keeps track of the degree
+int servoDegree = 0;    
+
+void setup() {
+
+   //this attaches the servo to pin 0
+   servoMotor.attach(0); 
+
+   //start at zero if it is not
+   servoMotor.write(servoDegree);
+
+   //move the servo 180 degrees by one degree each time
+   for (servoDegree = 0; servoDegree < 180; servoDegree++) {
+
+    //writes to the servo to do the action 
+    servoMotor.write(servoDegree); 
+    delay(15); //delay needed because computer cannot emit signal with 0 delay
+    
+   }
+
+   //move the servo back 
+   for (servoDegree = 180; servoDegree >= 0; servoDegree--) {
+
+    //writes to the servo to do the action 
+    servoMotor.write(servoDegree); 
+    delay(15); //delay needed because computer cannot emit signal with 0 delay
+    
+   }
+  
+}
+
+void loop() {
+
+  //just execute the code once
+  
+}
